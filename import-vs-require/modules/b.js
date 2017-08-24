@@ -1,6 +1,4 @@
 console.log('hello from b')
-
-if (5 === 5) {
-  console.log('exporting')
-  module.exports = {x: 4}
-}
+global.Y = "oh boy"
+// module.exports = {x: 4}
+export default 4
